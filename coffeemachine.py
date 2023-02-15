@@ -29,7 +29,7 @@ class CoffeeMachine:
         self.money = 0
 
     def make_drink(self):
-        choice = input("What would you like? (latte, espresso, cappuccino)")
+        choice = input("What would you like? (latte, espresso, cappuccino)\n")
 
         def check_supplies(drink):
             #  enough_supplies = True
